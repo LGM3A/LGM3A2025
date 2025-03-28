@@ -1,0 +1,1 @@
+The homepage of the 3st Workshop on Large Generative Models Meet Multimodal Applications (LGM3A)
