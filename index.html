@@ -38,6 +38,15 @@
       padding-left: 80px;
     }
     .left { padding-left: 250px; }
+    .speaker-photo {
+      margin: 10px;
+      float: left;
+    }
+    .speaker-block::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
   </style> 
     </head>
     
@@ -241,39 +250,50 @@
             </div>
 
             <!-- ================= Keynote 1 ================= -->
-            <h3><b>Keynote 1</b></h3>
-            <p><b>Speaker:</b> Guosheng Lin (Nanyang Technological University)</p>
-            <p><b>Talk Title:</b> Recent Advances in 3D Generation: From 3D Assets to CAD Models</p>
-            <p><b>Abstract:</b> In this talk, I will present our latest progress in 3D generative learning guided by text or image input. I will begin with our method for high-quality 3D asset generation from images, where we propose an efficient coarse-to-fine framework that combines compact coarse-level representations and part-aware voxel refinement. I will then introduce our approach for generating parametric CAD models directly from real-world images, eliminating the need for expensive 3D scanning. Together, these works push the frontier of visual generation and bring us closer to practical, scalable 3D modelling for real applications.</p>
-            <p><b>Bio:</b> Guosheng Lin is an Associate Professor at the College of Computing and Data Science, Nanyang Technological University. His research interests are in computer vision, with a focus on data-efficient learning and generative learning. He has published over 100 research articles in prestigious venues. He serves as an Associate Editor for the IEEE journals TMM and TCSVT. He also serves as an Area Chair or Senior PC member for flagship conferences such as CVPR, ACM MM, IJCAI, and AAAI.</p>
+            <div class="speaker-block">
+              <h3><b>Keynote 1</b></h3>
+              <img src="https://via.placeholder.com/170x170?text=Guosheng+Lin" class="media-left pull-left speaker-photo" width="170" alt="Guosheng Lin">
+              <p><b>Speaker:</b> <a href="https://personal.ntu.edu.sg/guoshenglin/" target="_blank"><font color=#5672f9><u>Guosheng Lin</u></font></a> (Nanyang Technological University)</p>
+              <p><b>Talk Title:</b> Recent Advances in 3D Generation: From 3D Assets to CAD Models</p>
+              <p><b>Abstract:</b> In this talk, I will present our latest progress in 3D generative learning guided by text or image input. I will begin with our method for high-quality 3D asset generation from images, where we propose an efficient coarse-to-fine framework that combines compact coarse-level representations and part-aware voxel refinement. I will then introduce our approach for generating parametric CAD models directly from real-world images, eliminating the need for expensive 3D scanning. Together, these works push the frontier of visual generation and bring us closer to practical, scalable 3D modelling for real applications.</p>
+              <p><b>Bio:</b> Guosheng Lin is an Associate Professor at the College of Computing and Data Science, Nanyang Technological University. His research interests are in computer vision, with a focus on data-efficient learning and generative learning. He has published over 100 research articles in prestigious venues. He serves as an Associate Editor for the IEEE journals TMM and TCSVT. He also serves as an Area Chair or Senior PC member for flagship conferences such as CVPR, ACM MM, IJCAI, and AAAI.</p>
+            </div>
 
             <br/>
 
             <!-- ================= Keynote 2 ================= -->
-            <h3><b>Keynote 2</b></h3>
-            <p><b>Speaker:</b> Ziwei Liu (Nanyang Technological University)</p>
-            <p><b>Talk Title:</b> From Multimodal Generative Models to Dynamic World Modeling</p>
-            <p><b>Abstract:</b> Beyond the confines of flat screens, multimodal generative models are crucial to create immersive experiences in virtual reality, not only for human users but also for robotics. Virtual environments or real-world simulators, often comprised of complex 3D/4D assets, significantly benefit from the accelerated creation enabled by Gen AI. In this talk, we will introduce our latest research progress on multimodal generative models for objects, avatars, scenes, motions, and ultimately dynamic world models.</p>
-            <p><b>Short Bio:</b> Ziwei Liu is currently an Associate Professor at Nanyang Technological University, Singapore. His research revolves around computer vision, machine learning and computer graphics. He has published extensively on top-tier conferences and journals in relevant fields, including CVPR, ICCV, ECCV, NeurIPS, ICLR, SIGGRAPH, TPAMI, TOG and Nature Machine Intelligence. He is the recipient of PAMI Mark Everingham Prize, CVPR Best Paper Award Candidate, Asian Young Scientist Fellowship, International Congress of Basic Science Frontiers of Science Award and MIT Technology Review Innovators under 35 Asia Pacific. He serves as an Area Chair of CVPR, ICCV, ECCV, NeurIPS and ICLR, as well as an Associate Editor of IJCV.</p>
+            <div class="speaker-block">
+              <h3><b>Keynote 2</b></h3>
+              <img src="https://liuziwei7.github.io/homepage_files/me.png" class="media-left pull-left speaker-photo" width="170" alt="Ziwei Liu">
+              <p><b>Speaker:</b> <a href="https://liuziwei7.github.io/" target="_blank"><font color=#5672f9><u>Ziwei Liu</u></font></a> (Nanyang Technological University)</p>
+              <p><b>Talk Title:</b> From Multimodal Generative Models to Dynamic World Modeling</p>
+              <p><b>Abstract:</b> Beyond the confines of flat screens, multimodal generative models are crucial to create immersive experiences in virtual reality, not only for human users but also for robotics. Virtual environments or real-world simulators, often comprised of complex 3D/4D assets, significantly benefit from the accelerated creation enabled by Gen AI. In this talk, we will introduce our latest research progress on multimodal generative models for objects, avatars, scenes, motions, and ultimately dynamic world models.</p>
+              <p><b>Short Bio:</b> Ziwei Liu is currently an Associate Professor at Nanyang Technological University, Singapore. His research revolves around computer vision, machine learning and computer graphics. He has published extensively on top-tier conferences and journals in relevant fields, including CVPR, ICCV, ECCV, NeurIPS, ICLR, SIGGRAPH, TPAMI, TOG and Nature Machine Intelligence. He is the recipient of PAMI Mark Everingham Prize, CVPR Best Paper Award Candidate, Asian Young Scientist Fellowship, International Congress of Basic Science Frontiers of Science Award and MIT Technology Review Innovators under 35 Asia Pacific. He serves as an Area Chair of CVPR, ICCV, ECCV, NeurIPS and ICLR, as well as an Associate Editor of IJCV.</p>
+            </div>
 
             <br/>
 
             <!-- ================= Keynote 3 ================= -->
-            <h3><b>Keynote 3</b></h3>
-            <p><b>Speaker:</b> Mike Zheng Shou (National University of Singapore)</p>
-            <p><b>Talk Title:</b> Video Intelligence in the Era of Multimodal</p>
-            <!-- Abstract removed as requested -->
-
-            <p><b>Bio:</b> Mike Shou is an Assistant Professor under Presidential Young Professorship at National University of Singapore. He was a Research Scientist at Facebook AI in the Bay Area. He obtained his Ph.D. degree at Columbia University with Prof Shih-Fu Chang. His research mainly focuses on video and multimodal. He received the Best Paper Finalist at CVPR 2022, Best Student Paper Nomination at CVPR 2017, EgoVis Distinguished Paper Award 2022/23. His team won 1st place in the international challenges including ActivityNet, EPIC-Kitchens, Ego4D. He is a ST Engineering Distinguished Professor and a Fellow of National Research Foundation Singapore. He is on the Forbes 30 Under 30 Asia list.</p>
+            <div class="speaker-block">
+              <h3><b>Keynote 3</b></h3>
+              <img src="https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2021/05/zhengshou_stanford_photo.jpg" class="media-left pull-left speaker-photo" width="170" height="180" alt="Mike Zheng Shou">
+              <p><b>Speaker:</b> <a href="https://sites.google.com/view/showlab" target="_blank"><font color=#5672f9><u>Mike Zheng Shou</u></font></a> (National University of Singapore)</p>
+              <p><b>Talk Title:</b> Video Intelligence in the Era of Multimodal</p>
+              <!-- Abstract removed as requested -->
+              <p><b>Bio:</b> Mike Shou is an Assistant Professor under Presidential Young Professorship at National University of Singapore. He was a Research Scientist at Facebook AI in the Bay Area. He obtained his Ph.D. degree at Columbia University with Prof Shih-Fu Chang. His research mainly focuses on video and multimodal. He received the Best Paper Finalist at CVPR 2022, Best Student Paper Nomination at CVPR 2017, EgoVis Distinguished Paper Award 2022/23. His team won 1st place in the international challenges including ActivityNet, EPIC-Kitchens, Ego4D. He is a ST Engineering Distinguished Professor and a Fellow of National Research Foundation Singapore. He is on the Forbes 30 Under 30 Asia list.</p>
+            </div>
 
             <br/>
 
-            <!-- =============== Invited Talk =============== -->
-            <h3><b>Invited Talk</b></h3>
-            <p><b>Speaker:</b> Hao Fei (<a href="http://haofei.vip/" target="_blank">Homepage</a>)</p>
-            <p><b>Talk Title:</b> On Path to Multimodal Generalist: General-Level and General-Bench</p>
-            <p><b>Abstract:</b> AI systems are increasingly capable of handling diverse types of data—such as text, images, and audio. However, many of these multimodal systems excel only in specific tasks or data modalities, lacking the broad adaptability seen in human intelligence. Also the existing evaluation paradigm that simply assumes that higher performance across tasks indicates a stronger MLLM capability can be problematic. This research introduces two tools/resources: General-Level, a framework that assesses an AI model's ability to integrate and apply knowledge across different tasks and data types; and General-Bench, a comprehensive dataset comprising over 700 tasks and 325,000 examples designed to evaluate this integrative capability. By applying these tools to over 100 existing AI models, we discovered that while some models perform well on individual tasks, they often struggle to transfer knowledge between different types of tasks or data. This indicates a gap in achieving truly general-purpose multimodal AGI. Our work aims to guide the development of more versatile multimodal AI systems that can seamlessly understand and generate multiple forms of data, moving us closer to AI that mirrors human-like general intelligence.</p>
-            <p><b>Bio:</b> Hao Fei is a Senior Research Fellow at National University of Singapore. His research focuses on vision-language understanding and generation, multimodal large foundation models. He has published over 60 papers in top-tier venues such as IEEE TPAMI, IEEE TKDE, ACM TOIS, AI, ICML, NeurIPS, CVPR, ACL, ICLR, and AAAI, gaining over 7k citations. He has received many accolades including 2022 Outstanding CIPSC PhD Dissertation Award, 2023 WAIC Rising Star Award, 2024 WAIC Excellent Young Paper Award, and Stanford World's Top 2% Scientist. His representative contributions include NExT-GPT, Vitron, and the Generalist Benchmark. He has organized over 20 international workshops, tutorials, and shared tasks, and frequently serves as Area Chair/Senior PC for top conferences including CVPR, ICML, NeurIPS, AAAI, ACL, IJCAI, and ACM MM, as well as Associate Editor of ACM TALLIP and Neurocomputing.</p>
+            <!-- =============== Keynote 4 (formerly Invited Talk) =============== -->
+            <div class="speaker-block">
+              <h3><b>Keynote 4</b></h3>
+              <img src="https://via.placeholder.com/170x170?text=Hao+Fei" class="media-left pull-left speaker-photo" width="170" alt="Hao Fei">
+              <p><b>Speaker:</b> <a href="http://haofei.vip/" target="_blank"><font color=#5672f9><u>Hao Fei</u></font></a> (National University of Singapore)</p>
+              <p><b>Talk Title:</b> On Path to Multimodal Generalist: General-Level and General-Bench</p>
+              <p><b>Abstract:</b> AI systems are increasingly capable of handling diverse types of data—such as text, images, and audio. However, many of these multimodal systems excel only in specific tasks or data modalities, lacking the broad adaptability seen in human intelligence. Also the existing evaluation paradigm that simply assumes that higher performance across tasks indicates a stronger MLLM capability can be problematic. This research introduces two tools/resources: General-Level, a framework that assesses an AI model's ability to integrate and apply knowledge across different tasks and data types; and General-Bench, a comprehensive dataset comprising over 700 tasks and 325,000 examples designed to evaluate this integrative capability. By applying these tools to over 100 existing AI models, we discovered that while some models perform well on individual tasks, they often struggle to transfer knowledge between different types of tasks or data. This indicates a gap in achieving truly general-purpose multimodal AGI. Our work aims to guide the development of more versatile multimodal AI systems that can seamlessly understand and generate multiple forms of data, moving us closer to AI that mirrors human-like general intelligence.</p>
+              <p><b>Bio:</b> Hao Fei is a Senior Research Fellow at National University of Singapore. His research focuses on vision-language understanding and generation, multimodal large foundation models. He has published over 60 papers in top-tier venues such as IEEE TPAMI, IEEE TKDE, ACM TOIS, AI, ICML, NeurIPS, CVPR, ACL, ICLR, and AAAI, gaining over 7k citations. He has received many accolades including 2022 Outstanding CIPSC PhD Dissertation Award, 2023 WAIC Rising Star Award, 2024 WAIC Excellent Young Paper Award, and Stanford World's Top 2% Scientist. His representative contributions include NExT-GPT, Vitron, and the Generalist Benchmark. He has organized over 20 international workshops, tutorials, and shared tasks, and frequently serves as Area Chair/Senior PC for top conferences including CVPR, ICML, NeurIPS, AAAI, ACL, IJCAI, and ACM MM, as well as Associate Editor of ACM TALLIP and Neurocomputing.</p>
+            </div>
 
           </div>
         </div>
@@ -281,7 +301,7 @@
     </section>
 
     <!--===========================================
-    =            Workshop Arrangement (NEW)       =
+    =            Workshop Arrangement (UPDATED)   =
     ============================================-->
     <section class="popular-deals section bg-white">
       <div class="container">
@@ -291,10 +311,9 @@
               <h2 id="schedule">Workshop Schedule</h2>
             </div>
             <p align="center">
-                <!-- Info -->
-                <li>On-site venue: TBD</li>
-                <li>Date &amp; Time: <b>09:00 – 12:10 (Dublin)</b> &nbsp;|&nbsp; <b>16:00 – 19:10 (Singapore)</b></li>
-                <!-- <li>Zoom link: <a><font color=#5672f9><u>TBD</u></font></a></li> -->
+                <li>On-site venue: <b>TBD</b></li>
+                <li>Date &amp; Time: <b>October 27th Morning (Dublin Time)</b></li>
+                <li>Zoom link: <a><font color=#5672f9><u>Meeting ID: </u></font></a> &nbsp; <a><font color=#5672f9><u>Passcode: </u></font></a></li>
                 <br/>
                 <style type="text/css">
                   #myta td{
@@ -315,11 +334,11 @@
                   <tr> <td>09:10 – 09:50</td> <td>Keynote 1 — Recent Advances in 3D Generation: From 3D Assets to CAD Models (Guosheng Lin)</td></tr>
                   <tr> <td>09:50 – 10:30</td> <td>Keynote 2 — From Multimodal Generative Models to Dynamic World Modeling (Ziwei Liu)</td></tr>
                   <tr> <td>10:30 – 11:10</td> <td>Keynote 3 — Video Intelligence in the Era of Multimodal (Mike Zheng Shou)</td></tr>
-                  <tr> <td>11:10 – 11:50</td> <td>Invited Talk — On Path to Multimodal Generalist: General-Level and General-Bench (Hao Fei)</td></tr>
+                  <tr> <td>11:10 – 11:50</td> <td>Keynote 4 — On Path to Multimodal Generalist: General-Level and General-Bench (Hao Fei)</td></tr>
 
-                  <!-- Papers after talks: 8min + 2min Q/A each; keep TBD as requested -->
-                  <tr> <td>11:50 – 12:00</td> <td>Paper Presentation 1 (TBD)</td></tr>
-                  <tr> <td>12:00 – 12:10</td> <td>Paper Presentation 2 (TBD)</td></tr>
+                  <!-- Papers after talks: 8min + 2min Q/A each -->
+                  <tr> <td>11:50 – 12:00</td> <td>Paper Presentation 1 — Annotation-Free Prompt Expansion for Chinese Text-to-Image Generation</td></tr>
+                  <tr> <td>12:00 – 12:10</td> <td>Paper Presentation 2 — Enabling Dynamic Storytelling via Training-Free Multimodal Synchronized Video Synthesis with Character Consistency</td></tr>
                 </table>
               </p>
           </div>
